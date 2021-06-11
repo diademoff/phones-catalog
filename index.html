@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Телефоны</title>
+</head>
+
+<body>
+    <div class="container">
+        <nav class="main_nav">
+            <ul>
+                <li>
+                    <a href="#">
+                        <button onclick="fillSubByOs('Android')">
+                            Android
+                        </button>
+                    </a>
+                </li>
+                <li>
+                    <a onclick="fillSubByOs('IOS')">
+                        <button>
+                            IOS
+                        </button>
+                    </a>
+                </li>
+                <li>
+                    <a onclick="fillSubByOs('Harmony')">
+                        <button>
+                            Harmony OS
+                        </button>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="sub_nav">
+            <nav>
+                <ul>
+                    <!--
+                    Эта часть заполняется скриптом
+                    <li>
+                        <a href="#">
+                            <button>
+                                Samsung
+                            </button>
+                        </a>
+                    </li> -->
+                </ul>
+            </nav>
+        </div>
+
+        <div class="content">
+
+
+            <div class="filter_menu">
+                <select name="options[]" size>
+                    <!-- Заполняется скриптом -->
+                    <!-- <option value="1">1</option> -->
+                </select>
+            </div>
+
+            <div class="phone_list">
+
+                <div class="card">
+                    <img src="https://cdn.svyaznoy.ru/upload/iblock/684/panasonic%20kx-tgh212.jpg/resize/483x483/hq/" alt="Avatar" style="width:100%">
+                    <div class="card_container">
+                        <h4><b>HTML CSS</b></h4>
+                        <p>Architect & Engineer</p>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
