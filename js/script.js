@@ -1,5 +1,3 @@
-console.log(phones);
-
 var optionsAndroid = new Map([
     ["Oppo", ["Find", "Reno", "Neo", "A Series", "F Series", "K Series"]],
     ["Realme", ["X Series", "G Series", "Q Series", "V Series", "C Series", "Narzo", "8 Series", "7 Series", "6 Series", "5 Series", "3 Series"]],
@@ -25,16 +23,19 @@ var optionsIOS = new Map([
 
 
 var SELECTED_OS = "Android";
+var SELECTED_SUB = "";
 // Заполнить меню навигации
 fillSubByOs(SELECTED_OS);
+
+function setTitle() {
+    document.querySelectorAll("#title h2")[0].textContent = SELECTED_OS + " " + SELECTED_SUB;
+}
 
 // On option click
 function fillCardsWithPhones(category) {
     var divList = document.querySelectorAll(".phone_list")[0];
     divList.innerHTML = "";
-
-    console.log(category);
-
+    SELECTED_SUB = category;
     var phonesToAdd = getPhonesByCategory(category);
     phonesToAdd.forEach(phone => {
         var img = '';
@@ -57,6 +58,7 @@ function fillCardsWithPhones(category) {
                            Экран: ${phone.Screen}\n`;
         addPhone(phone.Name, img, description)
     });
+    setTitle();
 }
 
 function getPhonesByCategory(category) {
@@ -123,11 +125,10 @@ function fillOptionsBySub(sub_selected) {
 }
 
 function fillOptionsUsingArray(text_array) {
-    var menu = document.querySelectorAll(".filter_menu select")[0];
+    var menu = document.querySelectorAll(".filter_menu")[0];
     menu.innerHTML = "";
     for (let i = 0; i < text_array.length; i++) {
-        var option = document.createElement("option");
-        option.value = i;
+        var option = document.createElement("button");
         option.textContent = text_array[i];
         option.onclick = function () { fillCardsWithPhones(text_array[i]) }
         menu.appendChild(option);
