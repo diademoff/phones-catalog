@@ -20,25 +20,24 @@ var optionsIOS = new Map([
     ["IPhone", ["12 Series", "11 Series", "X Series", "8 Series", "7 Series", "6 Series", "5 Series"]]
 ]);
 
-
-
 var SELECTED_OS = "Android";
-var SELECTED_SUB = "";
+var SELECTED_SUB = ""; // Samsung
+var SELECTED_OPTION = ""; // Galaxy
 // Заполнить меню навигации
 fillSubByOs(SELECTED_OS);
 
 function setTitle() {
-    document.querySelectorAll("#title h2")[0].textContent = SELECTED_OS + " " + SELECTED_SUB;
+    document.querySelectorAll("#title h2")[0].textContent = SELECTED_OS + " " + SELECTED_OPTION;
 }
 
 // On option click
 function fillCardsWithPhones(category) {
     var divList = document.querySelectorAll(".phone_list")[0];
     divList.innerHTML = "";
-    SELECTED_SUB = category;
+    SELECTED_OPTION = category;
     var phonesToAdd = getPhonesByCategory(category);
     phonesToAdd.forEach(phone => {
-        var img = '';
+        var img = phone.Image;
         if (!phone.Image) {
             img = "https://smarfony.ru/wp-content/uploads/2020/11/realme-7-5g.jpg";
         }
@@ -63,11 +62,17 @@ function fillCardsWithPhones(category) {
 
 function getPhonesByCategory(category) {
     var res = [];
-    phones.forEach(e => {
-        if (e.Category == category) {
-            res.push(e);
+    for (let i = 0; i < phones.length; i++) {
+        const phone = phones[i];
+        if (phone.Name.split(' ')[0] !== SELECTED_SUB) {
+            // Первое слово названия телефона соответствует компании
+            continue;
         }
-    });
+
+        if (phone.Category == category){
+            res.push(phone);
+        }
+    }
     return res;
 }
 
@@ -111,6 +116,7 @@ function addPhone(title, image, description) {
 
 // On sub click
 function fillOptionsBySub(sub_selected) {
+    SELECTED_SUB = sub_selected;
     var val = optionsAndroid.get(sub_selected);
     if (val) {
         fillOptionsUsingArray(val);
