@@ -28,6 +28,7 @@ var SELECTED_OS = "Android";
 // Заполнить меню навигации
 fillSubByOs(SELECTED_OS);
 
+// On option click
 function fillCardsWithPhones(category) {
     var divList = document.querySelectorAll(".phone_list")[0];
     divList.innerHTML = "";
@@ -38,9 +39,23 @@ function fillCardsWithPhones(category) {
     phonesToAdd.forEach(phone => {
         var img = '';
         if (!phone.Image) {
-            img = "https://cdn.svyaznoy.ru/upload/iblock/684/panasonic%20kx-tgh212.jpg/resize/483x483/hq/";
+            img = "https://smarfony.ru/wp-content/uploads/2020/11/realme-7-5g.jpg";
         }
-        addPhone(phone.Name, img)
+        var description = `Размер: ${phone.Size}\n\
+                           Вес: ${phone.Weight}\n\
+                           Экран: ${phone.Screen}\n\
+                           Чип: ${phone.Chip}\n\
+                           GPU: ${phone.GPU}\n\
+                           Память: ${phone.Memory}\n\
+                           Основная камера: ${phone.MainCam}\n\
+                           Фронтальная камера: ${phone.SelfieCam}\n\
+                           Bluetooth: ${phone.Bluetooth}\n\
+                           NFC: ${phone.NFC}\n\
+                           Jack 3,5: ${phone.Jack35}\n\
+                           USB: ${phone.USB}\n\
+                           Аккумулятор: ${phone.Acuum}\n\
+                           Экран: ${phone.Screen}\n`;
+        addPhone(phone.Name, img, description)
     });
 }
 
@@ -54,11 +69,19 @@ function getPhonesByCategory(category) {
     return res;
 }
 
-function addPhone(title, image) {
+function addPhone(title, image, description) {
     var divList = document.querySelectorAll(".phone_list")[0];
 
     var h = document.createElement("h4");
     h.textContent = title;
+
+    var p = []
+    for (let i = 0; i < description.split('\n').length; i++) {
+        const element = description.split('\n')[i];
+        var par = document.createElement("p");
+        par.textContent = element;
+        p.push(par);
+    }
 
     var div_card_container = document.createElement("div");
     div_card_container.className = "card_container";
@@ -74,6 +97,9 @@ function addPhone(title, image) {
     div_card.appendChild(img);
 
     div_card_container.appendChild(h);
+    p.forEach(element => {
+        div_card_container.appendChild(element);
+    });
 
     div_card.appendChild(div_card_container);
 
@@ -81,7 +107,7 @@ function addPhone(title, image) {
 }
 
 
-// Заполнить опции для выбранного саб-меню
+// On sub click
 function fillOptionsBySub(sub_selected) {
     var val = optionsAndroid.get(sub_selected);
     if (val) {
@@ -109,7 +135,7 @@ function fillOptionsUsingArray(text_array) {
 }
 
 
-// Заполнить по выбранной ОС
+// On OS clicked
 function fillSubByOs(os_name) {
     SELECTED_OS = os_name;
     if (os_name === "Android") {
