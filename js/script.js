@@ -1,3 +1,5 @@
+console.log(phones);
+
 var optionsAndroid = new Map([
     ["Oppo", ["Find", "Reno", "Neo", "A Series", "F Series", "K Series"]],
     ["Realme", ["X Series", "G Series", "Q Series", "V Series", "C Series", "Narzo", "8 Series", "7 Series", "6 Series", "5 Series", "3 Series"]],
@@ -21,9 +23,62 @@ var optionsIOS = new Map([
 ]);
 
 
+
 var SELECTED_OS = "Android";
 // Заполнить меню навигации
 fillSubByOs(SELECTED_OS);
+
+function fillCardsWithPhones(category) {
+    var divList = document.querySelectorAll(".phone_list")[0];
+    divList.innerHTML = "";
+
+    console.log(category);
+
+    var phonesToAdd = getPhonesByCategory(category);
+    phonesToAdd.forEach(phone => {
+        var img = '';
+        if (!phone.Image) {
+            img = "https://cdn.svyaznoy.ru/upload/iblock/684/panasonic%20kx-tgh212.jpg/resize/483x483/hq/";
+        }
+        addPhone(phone.Name, img)
+    });
+}
+
+function getPhonesByCategory(category) {
+    var res = [];
+    phones.forEach(e => {
+        if (e.Category == category) {
+            res.push(e);
+        }
+    });
+    return res;
+}
+
+function addPhone(title, image) {
+    var divList = document.querySelectorAll(".phone_list")[0];
+
+    var h = document.createElement("h4");
+    h.textContent = title;
+
+    var div_card_container = document.createElement("div");
+    div_card_container.className = "card_container";
+
+    var img = document.createElement("img");
+    img.src = image;
+    img.alt = "image";
+    img.style = "width:100%";
+
+    var div_card = document.createElement("div");
+    div_card.className = "card";
+
+    div_card.appendChild(img);
+
+    div_card_container.appendChild(h);
+
+    div_card.appendChild(div_card_container);
+
+    divList.appendChild(div_card);
+}
 
 
 // Заполнить опции для выбранного саб-меню
@@ -48,9 +103,11 @@ function fillOptionsUsingArray(text_array) {
         var option = document.createElement("option");
         option.value = i;
         option.textContent = text_array[i];
+        option.onclick = function () { fillCardsWithPhones(text_array[i]) }
         menu.appendChild(option);
     }
 }
+
 
 // Заполнить по выбранной ОС
 function fillSubByOs(os_name) {
