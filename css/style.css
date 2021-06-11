@@ -35,8 +35,8 @@ nav a>button {
     font-weight: 700;
     color: black;
     text-decoration: none;
-    padding: .8em 1em calc(.8em + 1px);
-    border-radius: 3px;
+    padding: .7em 1em;
+    border-radius: 5px;
     background: white;
     box-shadow: 0 -1px grey inset;
     transition: 0.2s;
@@ -57,6 +57,20 @@ nav a>button:active {
     padding: 0 100px;
 }
 
+@media screen and (max-width: 700px)
+{
+    .sub_nav{
+        padding: 0;
+    }
+    .sub_nav button{
+        font-size: 10px;
+    }
+    nav a>button{
+        font-size: 14px;
+        padding: .5em .8em;
+    }
+}
+
 
 /* Содержимое */
 .content {
@@ -64,7 +78,7 @@ nav a>button:active {
     flex-direction: column;
 }
 
-/* filter_menu - боковое меню с фильтрацией */
+/* filter_menu - меню с фильтрацией */
 .filter_menu {
     display: flex;
     flex-wrap: wrap;
@@ -89,14 +103,23 @@ nav a>button:active {
     transform: scale(1);
 }
 
+@media screen and (max-width: 700px)
+{
+    .filter_menu{
+        margin-top: 5px;
+    }
+    .filter_menu button{
+        font-size: 0.5em;
+        margin: 2px 4px;
+    }
+}
+
 /* Заголовок выбора */
 #title {
     display: flex;
     justify-content: center;
     margin-top: 15px;
 }
-
-
 
 /* phone_list - основной контейнер с списком телефонов */
 
