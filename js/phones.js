@@ -1022,7 +1022,7 @@ const phones = [
     {
         Name: "Xiaomi Redmi Note 10",
         Image: "https://cdn.svyaznoy.ru/upload/iblock/3ee/111.jpg/resize/483x483/hq/",
-        Category: "Redmi Note",
+        Category: "Redmi Note 10",
         Size: "160.5x 74.5 x 8.3 мм",
         Weight: "178.8 г",
         Screen: "Super AMOLED, 1080 x 2400 пик. 409 ppi",
@@ -1042,7 +1042,7 @@ const phones = [
     {
         Name: "Xiaomi Redmi Note 10 Pro",
         Image: "https://cdn.svyaznoy.ru/upload/iblock/4a7/111.jpg/resize/483x483/hq/",
-        Category: "Redmi Note",
+        Category: "Redmi Note 10",
         Size: "164 x 76.5 x 8.1 мм",
         Weight: "193 г",
         Screen: "AMOLED, 1080 x 2400 пик. 395 ppi 120Hz",
@@ -1062,7 +1062,7 @@ const phones = [
     {
         Name: "Xiaomi Redmi Note 10 Pro Max",
         Image: "https://www.notebookcheck-ru.com/uploads/tx_nbc2/XiaomiRedmiNote10ProMax.jpg",
-        Category: "Redmi Note",
+        Category: "Redmi Note 10",
         Size: "164.5 x 76.2 x 8.1 мм",
         Weight: "192 г",
         Screen: "Super AMOLED, 1080 x 2400 пик. 395 ppi 120Hz",
@@ -1082,7 +1082,7 @@ const phones = [
     {
         Name: "Xiaomi Redmi Note 10S",
         Image: "https://imarket33.com/wp-content/uploads/2021/03/2.1-4.jpg",
-        Category: "Redmi Note",
+        Category: "Redmi Note 10",
         Size: "160.5x 74.5 x 8.3 мм",
         Weight: "178.8 г",
         Screen: "Super AMOLED, 1080 x 2400 пик. 409 ppi",
@@ -1102,7 +1102,7 @@ const phones = [
     {
         Name: "Xiaomi Redmi Note 10 5G",
         Image: "https://cdn.alzashop.com/ImgW.ashx?fd=f16&cd=XI236c3",
-        Category: "Redmi Note",
+        Category: "Redmi Note 10",
         Size: "161.8x 75.3 x 8.9 мм",
         Weight: "190 г",
         Screen: "IPS, 1080 x 2400 пик. 405 ppi",
@@ -1122,7 +1122,7 @@ const phones = [
     {
         Name: "Xiaomi Redmi Note 9",
         Image: "https://i01.appmifile.com/webfile/globalimg/Cindy/J15Sgrey.png",
-        Category: "Redmi Note",
+        Category: "Redmi Note 9",
         Size: "162.3 x 77.2 x 8.9 мм",
         Weight: "199 г",
         Screen: "IPS, 1080 x 2340 пик. 395 ppi 120Hz",
@@ -1142,7 +1142,7 @@ const phones = [
     {
         Name: "Xiaomi Redmi Note 9 Pro",
         Image: "https://mi92.ru/wp-content/uploads/2020/03/xiaomi-redmi-note-9-pro-8-128gb-tropical-green-1.jpg",
-        Category: "Redmi Note",
+        Category: "Redmi Note 9",
         Size: "165.8 x 76.7 x 8.8 мм",
         Weight: "209 г",
         Screen: "IPS, 1080 x 2400 пик. 395 ppi",
@@ -1162,7 +1162,7 @@ const phones = [
     {
         Name: "Xiaomi Redmi Note 9 Pro Max",
         Image: "https://gigant-store.ru/image/catalog/Smartfon/Redmi/Note%209%20Pro%20Max/xiaomi-redmi-note-9-pro-max-6-128gb-glacier-white-belyj-29.jpg",
-        Category: "Redmi Note",
+        Category: "Redmi Note 9",
         Size: "165.5 x 76.7 x 8.8 мм",
         Weight: "209 г",
         Screen: "IPS, 1080 x 2400 пик. 395 ppi",
@@ -1182,7 +1182,7 @@ const phones = [
     {
         Name: "Xiaomi Redmi Note 9S",
         Image: "https://mi-yalta.ru/wp-content/uploads/2020/04/%D0%BD%D0%BE%D1%82%D0%B59.jpg",
-        Category: "Redmi Note",
+        Category: "Redmi Note 9",
         Size: "165.8 x 76.7 x 8.8 мм",
         Weight: "209 г",
         Screen: "IPS, 1080 x 2340 пик. 395 ppi 120Hz",
@@ -1202,7 +1202,7 @@ const phones = [
     {
         Name: "Xiaomi Redmi Note 9T",
         Image: "https://i01.appmifile.com/webfile/globalimg/gaoruijia/9T-Purple.png",
-        Category: "Redmi Note",
+        Category: "Redmi Note 9",
         Size: "161.2 x 77.3 x 9.1 мм",
         Weight: "199 г",
         Screen: "IPS, 1080 x 2340 пик. 395 ppi 120Hz",
@@ -1222,7 +1222,7 @@ const phones = [
     {
         Name: "Xiaomi Redmi Note 9 4G",
         Image: "https://vedroid.com/img/smartphones/xiaomi-redmi-note-9-4g/01.jpg",
-        Category: "Redmi Note",
+        Category: "Redmi Note 9",
         Size: "162.3 x 77.3 x 9.6 мм",
         Weight: "198 г",
         Screen: "IPS, 1080 x 2340 пик. 395 ppi",
@@ -1242,7 +1242,7 @@ const phones = [
     {
         Name: "Xiaomi Redmi Note 9 5G",
         Image: "https://cdn-files.kimovil.com/default/0005/45/thumb_444869_default_big.jpeg",
-        Category: "Redmi Note",
+        Category: "Redmi Note 9",
         Size: "162 x 77.3 x 9.1 мм",
         Weight: "199 г",
         Screen: "IPS, 1080 x 2340 пик. 395 ppi 120Hz",
@@ -1262,7 +1262,7 @@ const phones = [
     {
         Name: "Xiaomi Redmi Note 8",
         Image: "https://avatars.mds.yandex.net/get-mpic/4076910/img_id5104000156620309673.jpeg/13hq",
-        Category: "Redmi Note",
+        Category: "Redmi Note 8",
         Size: "158.3 x 75.3 x 8.4 мм",
         Weight: "190 г",
         Screen: "IPS, 1080 x 2340 пик. 409 ppi",
@@ -1282,7 +1282,7 @@ const phones = [
     {
         Name: "Xiaomi Redmi Note 8 Pro",
         Image: "https://avatars.mds.yandex.net/get-mpic/4493022/img_id4091447646987048195.jpeg/orig",
-        Category: "Redmi Note",
+        Category: "Redmi Note 8",
         Size: "161.4 x 76.4 x 8.8 мм",
         Weight: "200 г",
         Screen: "IPS, 1080 x 2340 пик. 395 ppi 120Hz",
@@ -1302,7 +1302,7 @@ const phones = [
     {
         Name: "Xiaomi Redmi Note 8T",
         Image: "https://static.beeline.ru/shop/media/goods/334x434/296f7537-01ed-4aeb-a66a-e505f622845f.png",
-        Category: "Redmi Note",
+        Category: "Redmi Note 8",
         Size: "161.1 x 75.4 x 8.6 мм",
         Weight: "200 г",
         Screen: "IPS, 1080 x 2340 пик. 409 ppi",
@@ -1322,7 +1322,7 @@ const phones = [
     {
         Name: "Xiaomi Redmi Note 7",
         Image: "https://mi-shop.com/upload/resize_cache/iblock/4ec/445_473_2/4ecb1b7d23e5743afa0c7cf983e5c981.jpg",
-        Category: "Redmi Note",
+        Category: "Redmi Note 7",
         Size: "159.2 x 75.2 x 8.1 мм",
         Weight: "186 г",
         Screen: "IPS, 1080 x 2340 пик. 409 ppi",
@@ -1342,7 +1342,7 @@ const phones = [
     {
         Name: "Xiaomi Redmi Note 7 Pro",
         Image: "https://sintetiki.net/images/product/19334/525/Xiaomi-Redmi-Note-7-Pro-Black.png",
-        Category: "Redmi Note",
+        Category: "Redmi Note 7",
         Size: "159.2 x 75.2 x 8.1 мм",
         Weight: "186 г",
         Screen: "IPS, 1080 x 2340 пик. 409 ppi",
@@ -1362,7 +1362,7 @@ const phones = [
     {
         Name: "Xiaomi Redmi Note 7S",
         Image: "https://avatars.mds.yandex.net/get-mpic/2017118/img_id6386038235051633023.jpeg/orig",
-        Category: "Redmi Note",
+        Category: "Redmi Note 7",
         Size: "159.2 x 75.2 x 8.1 мм",
         Weight: "186 г",
         Screen: "IPS, 1080 x 2340 пик. 409 ppi",
@@ -1382,7 +1382,7 @@ const phones = [
     {
         Name: "Xiaomi Redmi Note 6 Pro",
         Image: "https://mi-shop.com/upload/resize_cache/iblock/ef5/445_473_2/ef5c3cf453e2b7a523acca3f07df544a.jpg",
-        Category: "Redmi Note",
+        Category: "Redmi Note 6",
         Size: "157.9 x 76.4 x 8.3 мм",
         Weight: "182 г",
         Screen: "IPS, 1080 x 2280 пик. 403 ppi",

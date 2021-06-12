@@ -4,7 +4,7 @@ var Sub_Options = new Map([
     ["Vivo", ["X Series", "V Series", "Y Series", "NEX", "iQOO"]],
     ["OnePlus", ["Nord", "9 Series", "8 Series", "7 Series", "6 Series"]],
     ["Samsung", ["Galaxy Note", "Galaxy Fold", "Galaxy Z Series", "Galaxy S Series", "Galaxy A Series", "Galaxy M Series", "Galaxy F Series"]],
-    ["Xiaomi", ["Note", "Mix", "Max", "A Series", "MI 11", "MI 10", "MI 9", "MI 8", "Redmi Note", "Redmi 9", "Redmi 8", "Redmi 7", "Redmi 6", "Redmi 5", "K40", "K30", "K20", "Poco F", "Poco X", "Poco M", "Poco C", "Black Shark", "Black Shark 2", "Black Shark 3", "Black Shark 4"]],
+    ["Xiaomi", ["Note", "Mix", "Max", "A Series", "MI 11", "MI 10", "MI 9", "MI 8", "Redmi Note 10", "Redmi Note 9", "Redmi Note 8", "Redmi Note 7", "Redmi Note 6", "Redmi 9", "Redmi 8", "Redmi 7", "Redmi 6", "Redmi 5", "K40", "K30", "K20", "Poco F", "Poco X", "Poco M", "Poco C", "Black Shark", "Black Shark 2", "Black Shark 3", "Black Shark 4"]],
     ["Motorola", ["Edge", "Edge S", "Edge+", "Moto E", "Moto G", "Moto Z"]],
     ["Asus", ["Zenfone 7", "Zenfone 6", "Zenfone 5", "ROG Phone 5", "ROG Phone 3", "ROG Phone 2", "ROG Phone"]],
     ["ZTE", ["Red Magic", "Z Series", "Axon", "Blade", "S30 Pro", "S30", "S30 SE"]],
