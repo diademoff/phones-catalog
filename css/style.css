@@ -56,6 +56,15 @@ nav {
     padding-top: 10px;
 }
 
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
 nav ul li {
     display: inline;
     margin-right: 15px;
@@ -72,6 +81,7 @@ nav a>button {
     background: white;
     box-shadow: 0 -1px grey inset;
     transition: 0.2s;
+    margin-bottom: 7px;
 }
 
 nav a>button:hover {
@@ -117,7 +127,7 @@ nav a>button:active {
     flex-wrap: wrap;
     margin-top: 20px;
     flex-direction: row;
-    justify-content: left;
+    justify-content: center;
 }
 
 .filter_menu button {
@@ -194,7 +204,7 @@ nav a>button:active {
     margin: 15px 5px;
 }
 
-.card_container h4{
+.card_container h4 {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 18;
@@ -202,7 +212,7 @@ nav a>button:active {
 
 .card_container div {
     border-width: 0.01px;
-    border-style:outset;
+    border-style: outset;
     border-color: whitesmoke;
     border-radius: 2px;
 }
