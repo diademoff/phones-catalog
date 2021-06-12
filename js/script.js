@@ -77,8 +77,11 @@ function fillCardsWithPhones() {
             img = "https://smarfony.ru/wp-content/uploads/2020/11/realme-7-5g.jpg";
         }
 
+        var nfc = phone.NFC == "true" ? "есть" : "нет";
+        var jack = phone.Jack35 == "true" ? "да" : "нет";
+
         var description = `Размер: ${phone.Size}\n\
-        Вес: ${phone.Weight}\n\
+                           Вес: ${phone.Weight}\n\
                            Экран: ${phone.Screen}\n\
                            Чип: ${phone.Chip}\n\
                            GPU: ${phone.GPU}\n\
@@ -86,8 +89,8 @@ function fillCardsWithPhones() {
                            Основная камера: ${phone.MainCam}\n\
                            Фронтальная камера: ${phone.SelfieCam}\n\
                            Bluetooth: ${phone.Bluetooth}\n\
-                           NFC: ${phone.NFC}\n\
-                           Jack 3,5: ${phone.Jack35}\n\
+                           NFC: ${nfc}\n\
+                           Jack 3,5: ${jack}\n\
                            USB: ${phone.USB}\n\
                            Аккумулятор: ${phone.Acuum}\n\
                            Экран: ${phone.Screen}\n`;
@@ -130,11 +133,19 @@ function addPhone(title, image, description) {
     h.textContent = title;
 
     var p = []
-    for (let i = 0; i < description.split('\n').length; i++) {
+    for (let i = 0; i < description.split('\n').length - 1; i++) {
         const element = description.split('\n')[i];
         var par = document.createElement("p");
-        par.textContent = element;
-        p.push(par);
+        var span = document.createElement("span");
+        span.textContent = element.split(':')[0] + ":";
+        par.textContent = element.split(':')[1];
+
+        var d  = document.createElement("div");
+        d.style = "display: flex; flex-direction: row;"
+        d.appendChild(span);
+        d.appendChild(par);
+
+        p.push(d);
     }
 
     var div_card_container = document.createElement("div");

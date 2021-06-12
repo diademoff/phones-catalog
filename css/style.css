@@ -34,16 +34,16 @@ h1 {
     width: 100%
 }
 
-.search .search_field input{
+.search .search_field input {
     height: 2em;
     font-size: 16px;
 }
 
-#current_search{
+#current_search {
     margin-top: 10px;
 }
 
-#search_clear{
+#search_clear {
     margin-left: 5px;
     width: 30px;
     height: 30px;
@@ -81,7 +81,7 @@ nav a>button:hover {
 }
 
 nav a>button:active {
-    background: goldenrod;
+    background: whitesmoke;
     box-shadow: 0 1px grey inset;
 }
 
@@ -173,7 +173,7 @@ nav a>button:active {
     align-items: center;
     transition: 0.5s;
     border-radius: 8px;
-    margin: 50px 25px;
+    margin: 10px 25px;
     width: 40ex;
 }
 
@@ -196,6 +196,29 @@ nav a>button:active {
     margin: 15px 5px;
 }
 
+.card_container h4{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 18;
+}
+
+.card_container div {
+    border-width: 0.01px;
+    border-style:outset;
+    border-color: whitesmoke;
+    border-radius: 2px;
+}
+
 .card p {
     font-size: small;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.card span {
+    font-weight: bold;
+    font-size: small;
+    margin-right: 2px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
 }
