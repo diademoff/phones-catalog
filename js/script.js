@@ -20,29 +20,70 @@ var optionsIOS = new Map([
     ["IPhone", ["12 Series", "11 Series", "X Series", "8 Series", "7 Series", "6 Series", "5 Series"]]
 ]);
 
-var SELECTED_OS = "Android";
+var SELECTED_OS = "";
 var SELECTED_SUB = ""; // Samsung
 var SELECTED_OPTION = ""; // Galaxy
-// Заполнить меню навигации
-fillSubByOs(SELECTED_OS);
+var SEARCH_REQUEST = "";
+OnSearch();
+
+function OnSearchClear() {
+    SELECTED_OS = "";
+    SELECTED_SUB = "";
+    SELECTED_OPTION = "";
+    SEARCH_REQUEST = "";
+    document.getElementById('search_field').value = '';
+    OnSearch();
+}
+
+function OnSearch(request) {
+    var searchRequestShow = [];
+    if (request == null) {
+        request = SEARCH_REQUEST;
+    } else {
+        SEARCH_REQUEST = request;
+    }
+
+    if (request) {
+        searchRequestShow.push(request);
+    }
+    if (SELECTED_SUB) {
+        searchRequestShow.push(SELECTED_SUB);
+    }
+
+    if (SELECTED_OPTION) {
+        searchRequestShow.push(SELECTED_OPTION);
+    }
+
+    fillCardsWithPhones();
+    setCurrentSearch(searchRequestShow.join(' & '));
+}
+
+function setCurrentSearch(str) {
+    if (!str) {
+        str = "все телефоны";
+    }
+    document.getElementById("current_search").textContent = "Текущий запрос: " + str;
+}
 
 function setTitle() {
-    document.querySelectorAll("#title h2")[0].textContent = SELECTED_OS + " " + SELECTED_OPTION;
+    document.querySelectorAll("#title h2")[0].textContent = SELECTED_OS + " " + SELECTED_SUB + " " + SELECTED_OPTION;
 }
 
 // On option click
-function fillCardsWithPhones(category) {
+function fillCardsWithPhones() {
     var divList = document.querySelectorAll(".phone_list")[0];
     divList.innerHTML = "";
-    SELECTED_OPTION = category;
-    var phonesToAdd = getPhonesByCategory(category);
+
+    var phonesToAdd = getPhonesByRequest();
+
     phonesToAdd.forEach(phone => {
         var img = phone.Image;
         if (!phone.Image) {
             img = "https://smarfony.ru/wp-content/uploads/2020/11/realme-7-5g.jpg";
         }
+
         var description = `Размер: ${phone.Size}\n\
-                           Вес: ${phone.Weight}\n\
+        Вес: ${phone.Weight}\n\
                            Экран: ${phone.Screen}\n\
                            Чип: ${phone.Chip}\n\
                            GPU: ${phone.GPU}\n\
@@ -55,22 +96,33 @@ function fillCardsWithPhones(category) {
                            USB: ${phone.USB}\n\
                            Аккумулятор: ${phone.Acuum}\n\
                            Экран: ${phone.Screen}\n`;
+
         addPhone(phone.Name, img, description)
     });
     setTitle();
 }
 
-function getPhonesByCategory(category) {
+function phoneSatisfy(phone, search_request) {
+    if (!search_request) {
+        return true;
+    }
+
+    return phone.Name.toLowerCase().includes(search_request.toLowerCase());
+}
+
+function getPhonesByRequest() {
     var res = [];
     for (let i = 0; i < phones.length; i++) {
         const phone = phones[i];
-        if (phone.Name.split(' ')[0] !== SELECTED_SUB) {
+        if (phone.Name.split(' ')[0] !== SELECTED_SUB && SELECTED_SUB) {
             // Первое слово названия телефона соответствует компании
             continue;
         }
 
-        if (phone.Category == category){
-            res.push(phone);
+        if (phone.Category == SELECTED_OPTION || !SELECTED_OPTION) {
+            if (phoneSatisfy(phone, SEARCH_REQUEST)) {
+                res.push(phone);
+            }
         }
     }
     return res;
@@ -124,8 +176,6 @@ function fillOptionsBySub(sub_selected) {
         val = optionsIOS.get(sub_selected);
         if (val) {
             fillOptionsUsingArray(val);
-        } else {
-            console.log(sub_selected + " не найден");
         }
     }
 }
@@ -136,7 +186,7 @@ function fillOptionsUsingArray(text_array) {
     for (let i = 0; i < text_array.length; i++) {
         var option = document.createElement("button");
         option.textContent = text_array[i];
-        option.onclick = function () { fillCardsWithPhones(text_array[i]) }
+        option.onclick = function () { SELECTED_OPTION = text_array[i]; OnSearch(); }
         menu.appendChild(option);
     }
 }
@@ -145,6 +195,12 @@ function fillOptionsUsingArray(text_array) {
 // On OS clicked
 function fillSubByOs(os_name) {
     SELECTED_OS = os_name;
+    SELECTED_SUB = "";
+    SELECTED_OPTION = "";
+
+    OnSearch();
+    fillOptionsBySub("");
+
     if (os_name === "Android") {
         fillSubUsingArray(Array.from(optionsAndroid.keys()));
     } else if (os_name === "IOS") {
@@ -167,7 +223,7 @@ function fillSubUsingArray(text_array) {
         btn = document.createElement("button");
 
         btn.textContent = sub_text;
-        btn.onclick = function () { fillOptionsBySub(sub_text); }
+        btn.onclick = function () { fillOptionsBySub(sub_text); SELECTED_SUB = sub_text; SELECTED_OPTION = ""; OnSearch(); }
 
         a.appendChild(btn);
 

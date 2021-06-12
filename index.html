@@ -12,6 +12,19 @@
 
 <body>
     <div class="container">
+        <h1>Каталог телефонов</h1>
+
+        <div class="search">
+            <p>Поиск:</p>
+            <div class="search_field">
+                <input id="search_field" type="text" oninput="OnSearch(this.value)" />
+            </div>
+            <button id="search_clear" onclick="OnSearchClear('')">X</button>
+        </div>
+        <p id="current_search">Текущий запрос: </p>
+
+
+
         <nav class="main_nav">
             <ul>
                 <li>
