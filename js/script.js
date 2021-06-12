@@ -1,4 +1,4 @@
-var optionsAndroid = new Map([
+var Sub_Options = new Map([
     ["Oppo", ["Find", "Reno", "Neo", "A Series", "F Series", "K Series"]],
     ["Realme", ["X Series", "G Series", "Q Series", "V Series", "C Series", "Narzo", "8 Series", "7 Series", "6 Series", "5 Series", "3 Series"]],
     ["Vivo", ["X Series", "V Series", "Y Series", "NEX", "iQOO"]],
@@ -16,18 +16,13 @@ var optionsAndroid = new Map([
     ["Google", ["Pixel 5", "Pixel 4", "Pixel 3"]]
 ]);
 
-var optionsIOS = new Map([
-    ["IPhone", ["12 Series", "11 Series", "X Series", "8 Series", "7 Series", "6 Series", "5 Series"]]
-]);
-
-var SELECTED_OS = "";
 var SELECTED_SUB = ""; // Samsung
 var SELECTED_OPTION = ""; // Galaxy
 var SEARCH_REQUEST = "";
 OnSearch();
+fillSubUsingArray(Array.from(Sub_Options.keys()));
 
 function OnSearchClear() {
-    SELECTED_OS = "";
     SELECTED_SUB = "";
     SELECTED_OPTION = "";
     SEARCH_REQUEST = "";
@@ -66,7 +61,7 @@ function setCurrentSearch(str) {
 }
 
 function setTitle() {
-    document.querySelectorAll("#title h2")[0].textContent = SELECTED_OS + " " + SELECTED_SUB + " " + SELECTED_OPTION;
+    document.querySelectorAll("#title h2")[0].textContent = SELECTED_SUB + " " + SELECTED_OPTION;
 }
 
 // On option click
@@ -169,7 +164,7 @@ function addPhone(title, image, description) {
 // On sub click
 function fillOptionsBySub(sub_selected) {
     SELECTED_SUB = sub_selected;
-    var val = optionsAndroid.get(sub_selected);
+    var val = Sub_Options.get(sub_selected);
     if (val) {
         fillOptionsUsingArray(val);
     } else {
@@ -188,25 +183,6 @@ function fillOptionsUsingArray(text_array) {
         option.textContent = text_array[i];
         option.onclick = function () { SELECTED_OPTION = text_array[i]; OnSearch(); }
         menu.appendChild(option);
-    }
-}
-
-
-// On OS clicked
-function fillSubByOs(os_name) {
-    SELECTED_OS = os_name;
-    SELECTED_SUB = "";
-    SELECTED_OPTION = "";
-
-    OnSearch();
-    fillOptionsBySub("");
-
-    if (os_name === "Android") {
-        fillSubUsingArray(Array.from(optionsAndroid.keys()));
-    } else if (os_name === "IOS") {
-        fillSubUsingArray(Array.from(optionsIOS.keys()));
-    } else if (os_name === "Harmony") {
-        fillSubUsingArray(["lorem"]);
     }
 }
 
