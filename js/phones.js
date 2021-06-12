@@ -1,7 +1,7 @@
 const phones = [
     {
         Name: "Oppo Find X",
-        Image: "",
+        Image: "https://www.oppo.com/content/dam/oppo/product-asset-library/find-x3-series/weu-find-x3-pro/v2/assets/product-design-phone-black.png",
         Category: "Find",
         Size: "163.6 x 74 x 8.3 мм",
         Weight: "193 г",
@@ -20,8 +20,8 @@ const phones = [
         Charging: "65W"
     },
     {
-        Name: "Oppo Find X3 Pr",
-        Image: "",
+        Name: "Oppo Find X3 Pro",
+        Image: "https://www.oppo.com/content/dam/oppo/product-asset-library/find-x3-series/weu-find-x3-pro/v2/assets/product-design-phone-black.png",
         Category: "Find",
         Size: "163.6 x 74 x 8.3 мм",
         Weight: "193 г",
@@ -40,8 +40,8 @@ const phones = [
         Charging: "65W"
     },
     {
-        Name: "Realme",
-        Image: "",
+        Name: "Realme 8",
+        Image: "https://avatars.mds.yandex.net/get-mpic/4489193/img_id2221143637133225675.jpeg/13hq",
         Category: "8 Series",
         Size: "160.6 x 73.9 x 8 мм",
         Weight: "177 г",
@@ -60,8 +60,8 @@ const phones = [
         Charging: "30W"
     },
     {
-        Name: "Realme 8 Pr",
-        Image: "",
+        Name: "Realme 8 Pro",
+        Image: "https://avatars.mds.yandex.net/get-mpic/4304254/img_id9211811244202877102.jpeg/orig",
         Category: "8 Series",
         Size: "160.6 x 73.9 x 8.1 мм",
         Weight: "176 г",
@@ -80,8 +80,8 @@ const phones = [
         Charging: "50W"
     },
     {
-        Name: "Realme 7 Pr",
-        Image: "",
+        Name: "Realme 7 Pro",
+        Image: "https://avatars.mds.yandex.net/get-mpic/2017233/img_id5344276283527583352.jpeg/orig",
         Category: "7 Series",
         Size: "160.9 x 74.3 x 8.7 мм",
         Weight: "182 г",
@@ -100,8 +100,8 @@ const phones = [
         Charging: "65W"
     },
     {
-        Name: "Vivo V1",
-        Image: "",
+        Name: "Vivo V17",
+        Image: "https://avatars.mds.yandex.net/get-mpic/4080967/img_id2729954446998077348.png/13hq",
         Category: "V Series",
         Size: "159 x 74.2 x 8.5 мм",
         Weight: "176 г",
@@ -120,8 +120,8 @@ const phones = [
         Charging: "18W"
     },
     {
-        Name: "OnePlus",
-        Image: "",
+        Name: "OnePlus 9",
+        Image: "https://avatars.mds.yandex.net/get-mpic/3749045/img_id1626260710447303171.png/orig",
         Category: "9 Series",
         Size: "160 x 74.2 x 8.7 мм",
         Weight: "192 г",
@@ -140,8 +140,8 @@ const phones = [
         Charging: "65W"
     },
     {
-        Name: "OnePlus 7 Pr",
-        Image: "",
+        Name: "OnePlus 7 Pro",
+        Image: "https://avatars.mds.yandex.net/get-mpic/1715213/img_id2312983107368478853.png/13hq",
         Category: "7 Series",
         Size: "162.6 x 75.9 x 8.8 мм",
         Weight: "206 г",
@@ -160,8 +160,8 @@ const phones = [
         Charging: "30W"
     },
     {
-        Name: "Samsung Galaxy Fol",
-        Image: "",
+        Name: "Samsung Galaxy Fold",
+        Image: "https://avatars.mds.yandex.net/get-mpic/3609127/img_id6253240275299304672.jpeg/orig",
         Category: "Galaxy Fold",
         Size: "(раскрытый) - 160.9 x 117.9 x 6.9 мм",
         Weight: "263 г",
@@ -180,8 +180,8 @@ const phones = [
         Charging: "15W"
     },
     {
-        Name: "Samsung Galaxy S2",
-        Image: "",
+        Name: "Samsung Galaxy S21",
+        Image: "https://avatars.mds.yandex.net/get-mpic/4380539/img_id7341649431705533527.jpeg/orig",
         Category: "Galaxy S Series",
         Size: "151.7 x 71.2 x 7.9 мм",
         Weight: "169 г",
@@ -200,8 +200,8 @@ const phones = [
         Charging: "25W"
     },
     {
-        Name: "Samsung Galaxy S21",
-        Image: "",
+        Name: "Samsung Galaxy S21+",
+        Image: "https://avatars.mds.yandex.net/get-mpic/4401552/img_id9165778836963529639.jpeg/orig",
         Category: "Galaxy S Series",
         Size: "161.5 x 75.6 x 7.8 мм",
         Weight: "200 г",
@@ -220,8 +220,8 @@ const phones = [
         Charging: "25W"
     },
     {
-        Name: "Samsung Galaxy S21 Ultr",
-        Image: "",
+        Name: "Samsung Galaxy S21 Ultra",
+        Image: "https://avatars.mds.yandex.net/get-mpic/4401552/img_id7277120836281168731.jpeg/orig",
         Category: "Galaxy S Series",
         Size: "165.1 x 75.6 x 8.9 мм",
         Weight: "227 г",
@@ -240,8 +240,8 @@ const phones = [
         Charging: "25W"
     },
     {
-        Name: "Samsung Galaxy A9",
-        Image: "",
+        Name: "Samsung Galaxy A91",
+        Image: "https://reytingelektroniki.ru/wp-content/uploads/2019/10/111-13.jpg",
         Category: "Galaxy A Series",
         Size: "?",
         Weight: "?",
@@ -260,8 +260,8 @@ const phones = [
         Charging: "45W"
     },
     {
-        Name: "Samsung Galaxy A8 (2018",
-        Image: "",
+        Name: "Samsung Galaxy A8 (2018)",
+        Image: "https://www.notebookcheck-ru.com/uploads/tx_nbc2/Samsung-Galaxy-A8-983x1024.jpg",
         Category: "Galaxy A Series",
         Size: "149.2 x 70.6 x 8.4 мм",
         Weight: "172 г",
@@ -280,8 +280,8 @@ const phones = [
         Charging: "18W"
     },
     {
-        Name: "Samsung Galaxy A8+ (2018",
-        Image: "",
+        Name: "Samsung Galaxy A8+ (2018)",
+        Image: "https://static.beeline.ru/shop/media/goods/334x434/e0551267-2e2c-4904-80ca-740ab86e76a4.png",
         Category: "Galaxy A Series",
         Size: "159.9 x 75.7 x 8.3 мм",
         Weight: "191 г",
@@ -300,8 +300,8 @@ const phones = [
         Charging: "18W"
     },
     {
-        Name: "Samsung Galaxy A7 (2018",
-        Image: "",
+        Name: "Samsung Galaxy A7 (2018)",
+        Image: "https://cdn.svyaznoy.ru/upload/iblock/65a/a7_black.jpg/resize/483x483/hq/",
         Category: "Galaxy A Series",
         Size: "159.8 x 76.8 x 7.5 мм",
         Weight: "168 г",
@@ -320,8 +320,8 @@ const phones = [
         Charging: "?"
     },
     {
-        Name: "Samsung Galaxy A7",
-        Image: "",
+        Name: "Samsung Galaxy A71",
+        Image: "https://cdn.svyaznoy.ru/upload/iblock/485/sm_a715_galaxya71_silver_2.jpg/resize/483x483/hq/",
         Category: "Galaxy A Series",
         Size: "163 x 76 x 7.7 мм",
         Weight: "179 г",
@@ -340,8 +340,8 @@ const phones = [
         Charging: "25W"
     },
     {
-        Name: "Samsung Galaxy A7",
-        Image: "",
+        Name: "Samsung Galaxy A72",
+        Image: "https://www.ixbt.com/img/x780x600/n1/news/2021/2/1/90099_photos_0.jpeg",
         Category: "Galaxy A Series",
         Size: "165 x 77.4 x 8.4 мм",
         Weight: "203г",
@@ -360,8 +360,8 @@ const phones = [
         Charging: "25W"
     },
     {
-        Name: "Samsung Galaxy A5",
-        Image: "",
+        Name: "Samsung Galaxy A50",
+        Image: "https://static.beeline.ru/shop/media/goods/334x434/5973d246-3663-4dfe-b76a-22e96e91d0da.png",
         Category: "Galaxy A Series",
         Size: "158.5 x 74.7 x 7.7 мм",
         Weight: "166 г",
@@ -380,8 +380,8 @@ const phones = [
         Charging: "15W"
     },
     {
-        Name: "Samsung Galaxy A50",
-        Image: "",
+        Name: "Samsung Galaxy A50s",
+        Image: "https://quke.ru/UserFiles/Landing/products/64767_photos_0.jpeg",
         Category: "Galaxy A Series",
         Size: "158.5 x 74.5 x 7.7 мм",
         Weight: "169 г",
@@ -400,8 +400,8 @@ const phones = [
         Charging: "15W"
     },
     {
-        Name: "Samsung Galaxy A5",
-        Image: "",
+        Name: "Samsung Galaxy A51",
+        Image: "https://avatars.mds.yandex.net/get-mpic/4397006/img_id2614112954459392425.jpeg/orig",
         Category: "Galaxy A Series",
         Size: "158.5 x 73.6 x 7.9 мм",
         Weight: "172 г",
@@ -420,8 +420,8 @@ const phones = [
         Charging: "15W"
     },
     {
-        Name: "Samsung Galaxy A5",
-        Image: "",
+        Name: "Samsung Galaxy A52",
+        Image: "https://tatarstan.shop.megafon.ru/images/goods/1391/139129_p_20.png",
         Category: "Galaxy A Series",
         Size: "159.9 x 75.1 x 8.4 мм",
         Weight: "189 г",
@@ -440,8 +440,8 @@ const phones = [
         Charging: "25W"
     },
     {
-        Name: "Samsung Galaxy A52 5",
-        Image: "",
+        Name: "Samsung Galaxy A52 5G",
+        Image: "https://ru.etoren.com/upload/images/0.21101800_1616571024_samsung-galaxy-a52-5g-dual-sim-128gb-violet-8gb-ram.png",
         Category: "Galaxy A Series",
         Size: "159.9 x 75.1 x 8.4 мм",
         Weight: "189 г",
@@ -460,8 +460,8 @@ const phones = [
         Charging: "25W"
     },
     {
-        Name: "Samsung Galaxy M2",
-        Image: "",
+        Name: "Samsung Galaxy M21",
+        Image: "https://static.beeline.ru/shop/media/goods/334x434/0ada174d-c8cc-4c93-b64b-bae49f79b58a.png",
         Category: "Galaxy M Series",
         Size: "159 x 75.1 x 8.9 мм",
         Weight: "188 г",
@@ -480,8 +480,8 @@ const phones = [
         Charging: "15W"
     },
     {
-        Name: "Xiaomi Mi Note 1",
-        Image: "",
+        Name: "Xiaomi Mi Note 10",
+        Image: "https://www.notebookcheck-ru.com/uploads/tx_nbc2/xiaomi-mi-note-10-6gb-128gb-dual-sim-green.jpg",
         Category: "Note",
         Size: "157.8 x 74.2 x 9.7 мм",
         Weight: "208 г",
@@ -500,8 +500,8 @@ const phones = [
         Charging: "30W"
     },
     {
-        Name: "Xiaomi Mi  Note 10 Pr",
-        Image: "",
+        Name: "Xiaomi Mi  Note 10 Pro",
+        Image: "https://mi92.ru/wp-content/uploads/2020/02/xiaomi-mi-note-10-pro-8-256gb-white-1.jpg",
         Category: "Note",
         Size: "157.8 x 74.2 x 9.7 мм",
         Weight: "208 г",
@@ -520,8 +520,8 @@ const phones = [
         Charging: "30W"
     },
     {
-        Name: "Xiaomi Mi  Note 10 Lit",
-        Image: "",
+        Name: "Xiaomi Mi  Note 10 Lite",
+        Image: "https://htstatic.imgsmail.ru/pic_image/83e8ea0a3ddd9809aeaf68b835af675a/450/450/1845921/",
         Category: "Note",
         Size: "157.8 x 74.2 x 9.7 мм",
         Weight: "204 г",
@@ -540,8 +540,8 @@ const phones = [
         Charging: "30W"
     },
     {
-        Name: "Xiaomi MI Mix",
-        Image: "",
+        Name: "Xiaomi MI Mix 3",
+        Image: "https://i01.appmifile.com/webfile/globalimg/zixuanz/black.png",
         Category: "",
         Size: "157.9 x 74.7 x 8.5 мм",
         Weight: "218 г",
@@ -560,8 +560,8 @@ const phones = [
         Charging: "18W"
     },
     {
-        Name: "Xiaomi MI Mix 3 5",
-        Image: "",
+        Name: "Xiaomi MI Mix 3 5G",
+        Image: "https://miboom.ru/wp-content/uploads/2020/08/mi-mix-3-5g.jpg",
         Category: "Mix",
         Size: "157.9 x 74.7 x 9.4 мм",
         Weight: "225 г",
@@ -580,8 +580,8 @@ const phones = [
         Charging: "18W"
     },
     {
-        Name: "Xiaomi MI Mix 2",
-        Image: "",
+        Name: "Xiaomi MI Mix 2s",
+        Image: "https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1526037178.49295195.png",
         Category: "Mix",
         Size: "150.9 x 74.9 x 8.1 мм",
         Weight: "191 г",
@@ -600,8 +600,8 @@ const phones = [
         Charging: "18W"
     },
     {
-        Name: "Xiaomi MI Mi",
-        Image: "",
+        Name: "Xiaomi MI Mix",
+        Image: "https://mi-shop.com/upload/iblock/619/619a857b03f4dd66b9c24717c36a4a03.jpg",
         Category: "Mix",
         Size: "158.8 x 81.9 x 7.9 мм",
         Weight: "209 г",
@@ -620,8 +620,8 @@ const phones = [
         Charging: "18W"
     },
     {
-        Name: "Xiaomi MI Mix Alph",
-        Image: "",
+        Name: "Xiaomi MI Mix Alpha",
+        Image: "https://sintetiki.net/images/product/20330/1443/alp.png",
         Category: "Mix",
         Size: "154.4 x 72.3 x 10.4 мм",
         Weight: "241 г",
@@ -640,8 +640,8 @@ const phones = [
         Charging: "40W"
     },
     {
-        Name: "Xiaomi MI Mix Fol",
-        Image: "",
+        Name: "Xiaomi MI Mix Fold",
+        Image: "https://cdn.mobilniki.net/i/5135/xiaomimimixfold_24861.jpg",
         Category: "Mix",
         Size: "(раскрытый) - 173.3 x 133.4 x 7.6 мм / (сложенный) - 173.3 x 69.8 x 17.2 мм",
         Weight: "7 г",
@@ -660,8 +660,8 @@ const phones = [
         Charging: "67W"
     },
     {
-        Name: "Xiaomi Mi 1",
-        Image: "",
+        Name: "Xiaomi Mi 11",
+        Image: "https://avatars.mds.yandex.net/get-mpic/4055817/img_id3050302773406756013.jpeg/13hq",
         Category: "MI 11",
         Size: "164.3 x 74.6 x 8.1 мм",
         Weight: "196 г",
@@ -680,8 +680,8 @@ const phones = [
         Charging: "55W"
     },
     {
-        Name: "Xiaomi Mi 11 Ultr",
-        Image: "",
+        Name: "Xiaomi Mi 11 Ultra",
+        Image: "https://www.notebookcheck-ru.com/uploads/tx_nbc2/XiaomiMi11Ultra.jpg",
         Category: "MI 11",
         Size: "164.3 x 74.6 x 8.4 мм",
         Weight: "234 г",
@@ -700,8 +700,8 @@ const phones = [
         Charging: "67W"
     },
     {
-        Name: "Xiaomi Mi 11",
-        Image: "",
+        Name: "Xiaomi Mi 11i",
+        Image: "https://smarfony.ru/wp-content/uploads/2021/03/mi-11i.jpg",
         Category: "MI 11",
         Size: "163.7 x 76.4 x 7.8 мм",
         Weight: "196 г",
@@ -720,8 +720,8 @@ const phones = [
         Charging: "33W"
     },
     {
-        Name: "Xiaomi Mi 11 Lit",
-        Image: "",
+        Name: "Xiaomi Mi 11 Lite",
+        Image: "https://quke.ru/UserFiles/Landing/products/91938_photos_0.jpeg",
         Category: "MI 11",
         Size: "160.5 x 75.7 x 6.8 мм",
         Weight: "157 г",
@@ -740,8 +740,8 @@ const phones = [
         Charging: "33W"
     },
     {
-        Name: "Xiaomi Mi 11 Lite 5",
-        Image: "",
+        Name: "Xiaomi Mi 11 Lite 5G",
+        Image: "https://smarfony.ru/wp-content/uploads/2021/03/mi-11-lite-5g.jpg",
         Category: "MI 11",
         Size: "160.5 x 75.7 x 6.8 мм",
         Weight: "159 г",
@@ -760,8 +760,8 @@ const phones = [
         Charging: "33W"
     },
     {
-        Name: "Xiaomi Mi 1",
-        Image: "",
+        Name: "Xiaomi Mi 10",
+        Image: "https://mi-shop.com/upload/resize_cache/iblock/9d9/445_473_2/9d90b64a1323a17820f6d716361c9934.jpg",
         Category: "MI 10",
         Size: "162.5 x 74.8 x 9 мм",
         Weight: "208 г",
@@ -780,8 +780,8 @@ const phones = [
         Charging: "30W"
     },
     {
-        Name: "Xiaomi Mi 10 Pr",
-        Image: "",
+        Name: "Xiaomi Mi 10 Pro",
+        Image: "https://img.gkbcdn.com/s3/p/2020-02-14/Xiaomi-Mi10-Pro-5G-Smartphone-6-67-Inch-12GB-512GB-Blue-896596-.jpg",
         Category: "MI 10",
         Size: "162.5 x 74.8 x 9 мм",
         Weight: "208 г",
@@ -800,8 +800,8 @@ const phones = [
         Charging: "50W"
     },
     {
-        Name: "Xiaomi Mi 10",
-        Image: "",
+        Name: "Xiaomi Mi 10T",
+        Image: "https://i01.appmifile.com/webfile/globalimg/Cindy/J3SSilvery.png",
         Category: "MI 10",
         Size: "165.1 x 76.4 x 9.3 мм",
         Weight: "216 г",
@@ -820,8 +820,8 @@ const phones = [
         Charging: "33W"
     },
     {
-        Name: "Xiaomi Mi",
-        Image: "",
+        Name: "Xiaomi Mi 9",
+        Image: "https://sintetiki.net/images/product/19317/508/Xiaomi-Mi-9-grey.png",
         Category: "MI 9",
         Size: "157.5 x 74.7 x 7.6 мм",
         Weight: "173 г",
@@ -840,8 +840,8 @@ const phones = [
         Charging: "27W"
     },
     {
-        Name: "Xiaomi Mi 9 E",
-        Image: "",
+        Name: "Xiaomi Mi 9 EE",
+        Image: "https://bestdigitals.ru/wa-data/public/shop/products/70/59/5970/images/28775/28775.750.png",
         Category: "MI 9",
         Size: "157.5 x 74.7 x 7.6 мм",
         Weight: "173 г",
@@ -860,8 +860,8 @@ const phones = [
         Charging: "27W"
     },
     {
-        Name: "Xiaomi Mi 9 Lit",
-        Image: "",
+        Name: "Xiaomi Mi 9 Lite",
+        Image: "https://mi-shop.com/upload/resize_cache/iblock/97a/445_473_2/97a15039ec74e0c9f10049eb9bd3320b.jpg",
         Category: "MI 9",
         Size: "156.8 x 74.5 x 8.7 мм",
         Weight: "179 г",
@@ -880,8 +880,8 @@ const phones = [
         Charging: "18W"
     },
     {
-        Name: "Xiaomi Mi 9 Pr",
-        Image: "",
+        Name: "Xiaomi Mi 9 Pro",
+        Image: "https://img.gkbcdn.com/s3/p/2019-09-24/xiaomi-mi-9-pro-5g-6-39-inch-8gb-256gb-smartphone-black-1574132461949.jpg",
         Category: "MI 9",
         Size: "157.52x 74.6 x 8.5 мм",
         Weight: "196 г",
@@ -900,8 +900,8 @@ const phones = [
         Charging: "40W"
     },
     {
-        Name: "Xiaomi Mi 9 S",
-        Image: "",
+        Name: "Xiaomi Mi 9 SE",
+        Image: "https://sintetiki.net/images/product/19881/759/xiaomi-mi-9-se-purple.png",
         Category: "MI 9",
         Size: "147.5 x 70.5 x 7.5 мм",
         Weight: "155 г",
@@ -920,8 +920,8 @@ const phones = [
         Charging: "18W"
     },
     {
-        Name: "Xiaomi Mi",
-        Image: "",
+        Name: "Xiaomi Mi 8",
+        Image: "https://mi-shop.com/upload/resize_cache/iblock/c01/445_473_2/c01d8f4ee20adf90b4c3335e52ca55b1.png",
         Category: "MI 8",
         Size: "154.9 x 74.8 x 7.6 мм",
         Weight: "175 г",
@@ -940,8 +940,8 @@ const phones = [
         Charging: "18W"
     },
     {
-        Name: "Xiaomi Mi 8 E",
-        Image: "",
+        Name: "Xiaomi Mi 8 EE",
+        Image: "https://lh3.googleusercontent.com/proxy/THDdsZwlDuF8mI3ZGRlYdu5JX2VukxImnJhzd_Nob1qmnEnq4Kf1_20u9mJsDHK40dlA0WygloculTazEoD_88ul5RE-OoZOfy4s4EQ19sr_jJAIlb8rPVJLVg",
         Category: "MI 8",
         Size: "154.9 x 74.8 x 7.6 мм",
         Weight: "177 г",
@@ -960,8 +960,8 @@ const phones = [
         Charging: "18W"
     },
     {
-        Name: "Xiaomi Mi 8 Lit",
-        Image: "",
+        Name: "Xiaomi Mi 8 Lite",
+        Image: "https://cdn.svyaznoy.ru/upload/iblock/e7e63580f96d7bfb5866699fa86be18a/11.jpg/resize/483x483/hq/",
         Category: "MI 8",
         Size: "156.4 x 75.8 x 7.5 мм",
         Weight: "169 г",
@@ -980,8 +980,8 @@ const phones = [
         Charging: "18W"
     },
     {
-        Name: "Xiaomi Mi 8 Pr",
-        Image: "",
+        Name: "Xiaomi Mi 8 Pro",
+        Image: "https://avatars.mds.yandex.net/get-mpic/1514097/img_id5527372395839924372.jpeg/9hq",
         Category: "MI 8",
         Size: "154.9 x 74.8 x 7.6 мм",
         Weight: "177 г",
@@ -1000,8 +1000,8 @@ const phones = [
         Charging: "18W"
     },
     {
-        Name: "Xiaomi Mi 8 S",
-        Image: "",
+        Name: "Xiaomi Mi 8 SE",
+        Image: "https://sintetiki.net/images/product/14939/262/xiaomi-mi-8-se.png",
         Category: "MI 8",
         Size: "147.3 x 73.1 x 7.5 мм",
         Weight: "164 г",
@@ -1020,8 +1020,8 @@ const phones = [
         Charging: "18W"
     },
     {
-        Name: "Xiaomi Redmi Note 1",
-        Image: "",
+        Name: "Xiaomi Redmi Note 10",
+        Image: "https://cdn.svyaznoy.ru/upload/iblock/3ee/111.jpg/resize/483x483/hq/",
         Category: "Redmi Note",
         Size: "160.5x 74.5 x 8.3 мм",
         Weight: "178.8 г",
@@ -1040,8 +1040,8 @@ const phones = [
         Charging: "33W"
     },
     {
-        Name: "Xiaomi Redmi Note 10 Pr",
-        Image: "",
+        Name: "Xiaomi Redmi Note 10 Pro",
+        Image: "https://cdn.svyaznoy.ru/upload/iblock/4a7/111.jpg/resize/483x483/hq/",
         Category: "Redmi Note",
         Size: "164 x 76.5 x 8.1 мм",
         Weight: "193 г",
@@ -1060,8 +1060,8 @@ const phones = [
         Charging: "33W"
     },
     {
-        Name: "Xiaomi Redmi Note 10 Pro Ma",
-        Image: "",
+        Name: "Xiaomi Redmi Note 10 Pro Max",
+        Image: "https://www.notebookcheck-ru.com/uploads/tx_nbc2/XiaomiRedmiNote10ProMax.jpg",
         Category: "Redmi Note",
         Size: "164.5 x 76.2 x 8.1 мм",
         Weight: "192 г",
@@ -1080,8 +1080,8 @@ const phones = [
         Charging: "33W"
     },
     {
-        Name: "Xiaomi Redmi Note 10",
-        Image: "",
+        Name: "Xiaomi Redmi Note 10S",
+        Image: "https://imarket33.com/wp-content/uploads/2021/03/2.1-4.jpg",
         Category: "Redmi Note",
         Size: "160.5x 74.5 x 8.3 мм",
         Weight: "178.8 г",
@@ -1100,8 +1100,8 @@ const phones = [
         Charging: "33W"
     },
     {
-        Name: "Xiaomi Redmi Note 10 5",
-        Image: "",
+        Name: "Xiaomi Redmi Note 10 5G",
+        Image: "https://cdn.alzashop.com/ImgW.ashx?fd=f16&cd=XI236c3",
         Category: "Redmi Note",
         Size: "161.8x 75.3 x 8.9 мм",
         Weight: "190 г",
@@ -1120,8 +1120,8 @@ const phones = [
         Charging: "18W"
     },
     {
-        Name: "Xiaomi Redmi Note",
-        Image: "",
+        Name: "Xiaomi Redmi Note 9",
+        Image: "https://i01.appmifile.com/webfile/globalimg/Cindy/J15Sgrey.png",
         Category: "Redmi Note",
         Size: "162.3 x 77.2 x 8.9 мм",
         Weight: "199 г",
@@ -1140,8 +1140,8 @@ const phones = [
         Charging: "19W"
     },
     {
-        Name: "Xiaomi Redmi Note 9 Pr",
-        Image: "",
+        Name: "Xiaomi Redmi Note 9 Pro",
+        Image: "https://mi92.ru/wp-content/uploads/2020/03/xiaomi-redmi-note-9-pro-8-128gb-tropical-green-1.jpg",
         Category: "Redmi Note",
         Size: "165.8 x 76.7 x 8.8 мм",
         Weight: "209 г",
@@ -1160,8 +1160,8 @@ const phones = [
         Charging: "30W"
     },
     {
-        Name: "Xiaomi Redmi Note 9 Pro Ma",
-        Image: "",
+        Name: "Xiaomi Redmi Note 9 Pro Max",
+        Image: "https://gigant-store.ru/image/catalog/Smartfon/Redmi/Note%209%20Pro%20Max/xiaomi-redmi-note-9-pro-max-6-128gb-glacier-white-belyj-29.jpg",
         Category: "Redmi Note",
         Size: "165.5 x 76.7 x 8.8 мм",
         Weight: "209 г",
@@ -1180,8 +1180,8 @@ const phones = [
         Charging: "33W"
     },
     {
-        Name: "Xiaomi Redmi Note 9",
-        Image: "",
+        Name: "Xiaomi Redmi Note 9S",
+        Image: "https://mi-yalta.ru/wp-content/uploads/2020/04/%D0%BD%D0%BE%D1%82%D0%B59.jpg",
         Category: "Redmi Note",
         Size: "165.8 x 76.7 x 8.8 мм",
         Weight: "209 г",
@@ -1200,8 +1200,8 @@ const phones = [
         Charging: "19W"
     },
     {
-        Name: "Xiaomi Redmi Note 9",
-        Image: "",
+        Name: "Xiaomi Redmi Note 9T",
+        Image: "https://i01.appmifile.com/webfile/globalimg/gaoruijia/9T-Purple.png",
         Category: "Redmi Note",
         Size: "161.2 x 77.3 x 9.1 мм",
         Weight: "199 г",
@@ -1220,8 +1220,8 @@ const phones = [
         Charging: "18W"
     },
     {
-        Name: "Xiaomi Redmi Note 9 4",
-        Image: "",
+        Name: "Xiaomi Redmi Note 9 4G",
+        Image: "https://vedroid.com/img/smartphones/xiaomi-redmi-note-9-4g/01.jpg",
         Category: "Redmi Note",
         Size: "162.3 x 77.3 x 9.6 мм",
         Weight: "198 г",
@@ -1240,8 +1240,8 @@ const phones = [
         Charging: "18W"
     },
     {
-        Name: "Xiaomi Redmi Note 9 5",
-        Image: "",
+        Name: "Xiaomi Redmi Note 9 5G",
+        Image: "https://cdn-files.kimovil.com/default/0005/45/thumb_444869_default_big.jpeg",
         Category: "Redmi Note",
         Size: "162 x 77.3 x 9.1 мм",
         Weight: "199 г",
@@ -1260,8 +1260,8 @@ const phones = [
         Charging: "18W"
     },
     {
-        Name: "Xiaomi Redmi Note",
-        Image: "",
+        Name: "Xiaomi Redmi Note 8",
+        Image: "https://avatars.mds.yandex.net/get-mpic/4076910/img_id5104000156620309673.jpeg/13hq",
         Category: "Redmi Note",
         Size: "158.3 x 75.3 x 8.4 мм",
         Weight: "190 г",
@@ -1280,8 +1280,8 @@ const phones = [
         Charging: "18W"
     },
     {
-        Name: "Xiaomi Redmi Note 8 Pr",
-        Image: "",
+        Name: "Xiaomi Redmi Note 8 Pro",
+        Image: "https://avatars.mds.yandex.net/get-mpic/4493022/img_id4091447646987048195.jpeg/orig",
         Category: "Redmi Note",
         Size: "161.4 x 76.4 x 8.8 мм",
         Weight: "200 г",
@@ -1300,8 +1300,8 @@ const phones = [
         Charging: "18W"
     },
     {
-        Name: "Xiaomi Redmi Note 8",
-        Image: "",
+        Name: "Xiaomi Redmi Note 8T",
+        Image: "https://static.beeline.ru/shop/media/goods/334x434/296f7537-01ed-4aeb-a66a-e505f622845f.png",
         Category: "Redmi Note",
         Size: "161.1 x 75.4 x 8.6 мм",
         Weight: "200 г",
@@ -1320,8 +1320,8 @@ const phones = [
         Charging: "18W"
     },
     {
-        Name: "Xiaomi Redmi Note",
-        Image: "",
+        Name: "Xiaomi Redmi Note 7",
+        Image: "https://mi-shop.com/upload/resize_cache/iblock/4ec/445_473_2/4ecb1b7d23e5743afa0c7cf983e5c981.jpg",
         Category: "Redmi Note",
         Size: "159.2 x 75.2 x 8.1 мм",
         Weight: "186 г",
@@ -1340,8 +1340,8 @@ const phones = [
         Charging: "18W"
     },
     {
-        Name: "Xiaomi Redmi Note 7 Pr",
-        Image: "",
+        Name: "Xiaomi Redmi Note 7 Pro",
+        Image: "https://sintetiki.net/images/product/19334/525/Xiaomi-Redmi-Note-7-Pro-Black.png",
         Category: "Redmi Note",
         Size: "159.2 x 75.2 x 8.1 мм",
         Weight: "186 г",
@@ -1360,8 +1360,8 @@ const phones = [
         Charging: "18W"
     },
     {
-        Name: "Xiaomi Redmi Note 7",
-        Image: "",
+        Name: "Xiaomi Redmi Note 7S",
+        Image: "https://avatars.mds.yandex.net/get-mpic/2017118/img_id6386038235051633023.jpeg/orig",
         Category: "Redmi Note",
         Size: "159.2 x 75.2 x 8.1 мм",
         Weight: "186 г",
@@ -1380,8 +1380,8 @@ const phones = [
         Charging: "18W"
     },
     {
-        Name: "Xiaomi Redmi Note 6 Pr",
-        Image: "",
+        Name: "Xiaomi Redmi Note 6 Pro",
+        Image: "https://mi-shop.com/upload/resize_cache/iblock/ef5/445_473_2/ef5c3cf453e2b7a523acca3f07df544a.jpg",
         Category: "Redmi Note",
         Size: "157.9 x 76.4 x 8.3 мм",
         Weight: "182 г",
@@ -1400,8 +1400,8 @@ const phones = [
         Charging: "10W"
     },
     {
-        Name: "Xiaomi Redmi",
-        Image: "",
+        Name: "Xiaomi Redmi 9",
+        Image: "https://avatars.mds.yandex.net/get-mpic/1865885/img_id2391146222603227658.png/orig",
         Category: "Redmi 9",
         Size: "163.3 x 77 x 9.1 мм",
         Weight: "198 г",
@@ -1420,8 +1420,8 @@ const phones = [
         Charging: "18W"
     },
     {
-        Name: "Xiaomi Redmi 9",
-        Image: "",
+        Name: "Xiaomi Redmi 9A",
+        Image: "https://i01.appmifile.com/webfile/globalimg/Cindy/C3LGreen.png",
         Category: "Redmi 9",
         Size: "164.9 x 77.1 x 9 мм",
         Weight: "196 г",
@@ -1440,8 +1440,8 @@ const phones = [
         Charging: "10W"
     },
     {
-        Name: "Xiaomi Redmi 9",
-        Image: "",
+        Name: "Xiaomi Redmi 9T",
+        Image: "https://quke.ru/UserFiles/Landing/products/90860_photos_0.jpeg",
         Category: "Redmi 9",
         Size: "162.3x 77.3 x 9.6 мм",
         Weight: "198 г",
@@ -1460,8 +1460,8 @@ const phones = [
         Charging: "18W"
     },
     {
-        Name: "Xiaomi Redmi",
-        Image: "",
+        Name: "Xiaomi Redmi 8",
+        Image: "https://avatars.mds.yandex.net/get-mpic/3732535/img_id8791006942711877527.png/13hq",
         Category: "Redmi 8",
         Size: "156.5 x 75.4 x 9.4 мм",
         Weight: "188 г",
@@ -1480,8 +1480,8 @@ const phones = [
         Charging: "18W"
     },
     {
-        Name: "Xiaomi Redmi 8",
-        Image: "",
+        Name: "Xiaomi Redmi 8A",
+        Image: "https://avatars.mds.yandex.net/get-mpic/3614670/img_id3718594211744303419.png/13hq",
         Category: "Redmi 8",
         Size: "156.5 x 75.4 x 9.4 мм",
         Weight: "188 г",
@@ -1500,8 +1500,8 @@ const phones = [
         Charging: "18W"
     },
     {
-        Name: "Xiaomi Redmi 8A Dua",
-        Image: "",
+        Name: "Xiaomi Redmi 8A Dual",
+        Image: "https://u01.appmifile.com/images/2020/02/11/931a598d-8697-4492-a458-2125a3490e53.png",
         Category: "Redmi 8",
         Size: "156.5 x 75.4 x 9.4 мм",
         Weight: "188 г",
@@ -1520,8 +1520,8 @@ const phones = [
         Charging: "18W"
     },
     {
-        Name: "Xiaomi Redmi 5",
-        Image: "",
+        Name: "Xiaomi Redmi 5A",
+        Image: "https://mi-shop.com/upload/iblock/c16/c16c559107f04afac987a0f9b24c7b13.png",
         Category: "Redmi 5",
         Size: "140.4 x 70.1 x 8.4 мм",
         Weight: "137 г",
@@ -1540,8 +1540,8 @@ const phones = [
         Charging: "?"
     },
     {
-        Name: "Xiaomi Redmi K30 Ultr",
-        Image: "",
+        Name: "Xiaomi Redmi K30 Ultra",
+        Image: "https://sintetiki.net/images/product/20443/1733/k30-ultra-wh.png",
         Category: "K30",
         Size: "163.3 x 75.4 x 9.1 мм",
         Weight: "213 г",
@@ -1560,8 +1560,8 @@ const phones = [
         Charging: "33W"
     },
     {
-        Name: "Xiaomi Pocophone F",
-        Image: "",
+        Name: "Xiaomi Pocophone F1",
+        Image: "https://i0.wp.com/www.pngkey.com/png/full/162-1624910_global-version-xiaomi-pocophone-f1-poco-f1-6gb.png",
         Category: "Poco F",
         Size: "155.5 x 75.3 x 8.8 мм",
         Weight: "182 г",
@@ -1580,8 +1580,8 @@ const phones = [
         Charging: "18W"
     },
     {
-        Name: "Xiaomi Poco F",
-        Image: "",
+        Name: "Xiaomi Poco F3",
+        Image: "https://avatars.mds.yandex.net/get-mpic/4255269/img_id5246983704297855702.jpeg/13hq",
         Category: "Poco F",
         Size: "163.7 x 76.4 x 7.8 мм",
         Weight: "196 г",
@@ -1600,8 +1600,8 @@ const phones = [
         Charging: "33W"
     },
     {
-        Name: "Xiaomi Poco X3 Pr",
-        Image: "",
+        Name: "Xiaomi Poco X3 Pro",
+        Image: "https://www.hdretail.ru/upload/iblock/976/97627351a64fcc199a0523bf9855582f.png",
         Category: "Poco X",
         Size: "165.3 x 76.8 x 9.4 мм",
         Weight: "215 г",
@@ -1620,8 +1620,8 @@ const phones = [
         Charging: "33W"
     },
     {
-        Name: "Xiaomi Poco X3 NF",
-        Image: "",
+        Name: "Xiaomi Poco X3 NFC",
+        Image: "https://cdn1.ozone.ru/s3/multimedia-1/c1200/6031976965.jpg",
         Category: "Poco X",
         Size: "165.3 x 76.8 x 9.4 мм",
         Weight: "215 г",
@@ -1640,8 +1640,8 @@ const phones = [
         Charging: "33W"
     },
     {
-        Name: "Xiaomi Poco X",
-        Image: "",
+        Name: "Xiaomi Poco X3",
+        Image: "https://cdn1.ozone.ru/s3/multimedia-1/c1200/6031976965.jpg",
         Category: "Poco X",
         Size: "165.3 x 76.8 x 10.1 мм",
         Weight: "225 г",
@@ -1660,8 +1660,8 @@ const phones = [
         Charging: "33W"
     },
     {
-        Name: "Xiaomi Poco M2 Pr",
-        Image: "",
+        Name: "Xiaomi Poco M2 Pro",
+        Image: "https://i01.appmifile.com/webfile/globalimg/Cindy/J15Sgrey.png",
         Category: "Poco M",
         Size: "165.8 x 76.7 x 8.8 мм",
         Weight: "209 г",
@@ -1680,8 +1680,8 @@ const phones = [
         Charging: "33W"
     },
     {
-        Name: "Xiaomi Poco M",
-        Image: "",
+        Name: "Xiaomi Poco M3",
+        Image: "https://storex24.ru/upload/iblock/8c5/8c5a8ab75881fc8381fb225ee28651ed.jpeg",
         Category: "Poco M",
         Size: "162.3 x 77.3 x 9.6 мм",
         Weight: "198 г",
@@ -1700,8 +1700,8 @@ const phones = [
         Charging: "18W"
     },
     {
-        Name: "Xiaomi Poco M3 Pr",
-        Image: "",
+        Name: "Xiaomi Poco M3 Pro",
+        Image: "https://smarfony.ru/wp-content/uploads/2021/05/poco-m3-pro-5g.jpg",
         Category: "Poco M",
         Size: "161.8 x 75.3 x 8.9 мм",
         Weight: "190 г",
@@ -1720,8 +1720,8 @@ const phones = [
         Charging: "18W"
     },
     {
-        Name: "Xiaomi Black Shar",
-        Image: "",
+        Name: "Xiaomi Black Shark",
+        Image: "https://sintetiki.net/images/product/19974/787/Xiaomi-Black-Shark-2-Black.png",
         Category: "Black Shark",
         Size: "161 x 75.4 x 9.3 мм",
         Weight: "190 г",
@@ -1740,8 +1740,8 @@ const phones = [
         Charging: "18W"
     },
     {
-        Name: "Meizu 1",
-        Image: "",
+        Name: "Meizu 18",
+        Image: "https://cdn-files.kimovil.com/default/0005/79/thumb_478469_default_big.jpeg",
         Category: "18 Series",
         Size: "152.4 x 69.2 x 8.2 мм",
         Weight: "162 г",
@@ -1760,8 +1760,8 @@ const phones = [
         Charging: "36W"
     },
     {
-        Name: "Meizu 18 Pr",
-        Image: "",
+        Name: "Meizu 18 Pro",
+        Image: "https://cdn-files.kimovil.com/default/0005/79/thumb_478493_default_big.jpeg",
         Category: "18 Series",
         Size: "162.5 x 73 x 8.1 мм",
         Weight: "189 г",
@@ -1780,8 +1780,8 @@ const phones = [
         Charging: "36W"
     },
     {
-        Name: "Meizu V",
-        Image: "",
+        Name: "Meizu V8",
+        Image: "https://www.priceboon.com/wp-content/uploads/2018/09/Meizu-V8-5-7-Inch-3GB-32GB-Smartphone-White-737721-.jpg",
         Category: "V8 Series",
         Size: "148 x 73 x 8.4 мм",
         Weight: "145 г",
@@ -1800,8 +1800,8 @@ const phones = [
         Charging: "?"
     },
     {
-        Name: "Honor 3",
-        Image: "",
+        Name: "Honor 30",
+        Image: "https://static.beeline.ru/shop/media/goods/334x434/a43e222f-508e-4e66-a922-d80d245f296e.png",
         Category: "30 Series",
         Size: "160.3 x 74.2 x 8.1 мм",
         Weight: "185 г",
@@ -1820,8 +1820,8 @@ const phones = [
         Charging: "40W"
     },
     {
-        Name: "Honor 30 Pr",
-        Image: "",
+        Name: "Honor 30 Pro",
+        Image: "https://appproduct.ru/image/cache/catalog/easyphoto/280/smartfon-huawei-honor-30-pro-plus-1-1000x1000.jpg",
         Category: "30 Series",
         Size: "160.3 x 73.6 x 8.4 мм",
         Weight: "186 г",
@@ -1840,8 +1840,8 @@ const phones = [
         Charging: "40W"
     },
     {
-        Name: "Honor 30 Pro",
-        Image: "",
+        Name: "Honor 30 Pro+",
+        Image: "https://static.beeline.ru/shop/media/goods/334x434/50f649bf-ddde-4113-b773-d201c727e979.png",
         Category: "30 Series",
         Size: "160.3 x 73.6 x 8.4 мм",
         Weight: "190 г",
@@ -1860,8 +1860,8 @@ const phones = [
         Charging: "40W"
     },
     {
-        Name: "Honor 30 Yout",
-        Image: "",
+        Name: "Honor 30 Youth",
+        Image: "https://cdn-files.kimovil.com/default/0004/87/thumb_386813_default_big.jpeg",
         Category: "30 Series",
         Size: "160 x 75.3 x 8.4 мм",
         Weight: "192 г",
@@ -1880,8 +1880,8 @@ const phones = [
         Charging: "22.5W"
     },
     {
-        Name: "Honor 30",
-        Image: "",
+        Name: "Honor 30S",
+        Image: "https://static.beeline.ru/shop/media/goods/334x434/4e9ce974-dcad-4f8e-b75b-c862e3c402c4.png",
         Category: "30 Series",
         Size: "162.3 x 75 x 8.6 мм",
         Weight: "190 г",
@@ -1900,8 +1900,8 @@ const phones = [
         Charging: "40W"
     },
     {
-        Name: "Honor 30",
-        Image: "",
+        Name: "Honor 30i",
+        Image: "https://static.beeline.ru/shop/media/goods/334x434/a43e222f-508e-4e66-a922-d80d245f296e.png",
         Category: "30 Series",
         Size: "157.2 x 73.2 x 7.7 мм",
         Weight: "171.5 г",
@@ -1920,8 +1920,8 @@ const phones = [
         Charging: "10W"
     },
     {
-        Name: "Huawei P4",
-        Image: "",
+        Name: "Huawei P40",
+        Image: "https://consumer-img.huawei.com/content/dam/huawei-cbg-site/common/mkt/list-image/phones/p40/p40-black.png",
         Category: "P40",
         Size: "148.9 x 71.1 x 8.5 мм",
         Weight: "175 г",
@@ -1940,8 +1940,8 @@ const phones = [
         Charging: "22.5W"
     },
     {
-        Name: "Huawei P40 Pro",
-        Image: "",
+        Name: "Huawei P40 Pro+",
+        Image: "https://smart-lite.ru/image/cache/catalog/products/huawei/p40pro/huawei-p40-pro-silver-1-800x800.png",
         Category: "P40",
         Size: "158.2 x 72.6 x 9 мм",
         Weight: "226 г",
@@ -1960,8 +1960,8 @@ const phones = [
         Charging: "40W"
     },
     {
-        Name: "Google pixel",
-        Image: "",
+        Name: "Google pixel 5",
+        Image: "https://quke.ru/UserFiles/Landing/products/78305_photos_0.jpeg",
         Category: "Pixel 5",
         Size: "144.7 x 70.4 x 8 мм",
         Weight: "155 г",
@@ -1980,8 +1980,8 @@ const phones = [
         Charging: "18W"
     },
     {
-        Name: "Google pixel",
-        Image: "",
+        Name: "Google pixel 4",
+        Image: "https://cdn11.bigcommerce.com/s-ss31ap/images/stencil/1280x1280/products/7416/23510/GA01188-US__78879.1571191474.jpg?c=2",
         Category: "Pixel 4",
         Size: "147.1 x 68.8 x 8.2 мм",
         Weight: "162 г",
@@ -2000,8 +2000,8 @@ const phones = [
         Charging: "18W"
     },
     {
-        Name: "Google pixel  4 X",
-        Image: "",
+        Name: "Google pixel  4 XL",
+        Image: "https://avatars.mds.yandex.net/get-mpic/1859594/img_id1849211748329831753.jpeg/orig",
         Category: "Pixel 4",
         Size: "160.4 x 75.1 x 8.2 мм",
         Weight: "193 г",
@@ -2020,8 +2020,8 @@ const phones = [
         Charging: "18W"
     },
     {
-        Name: "Google pixel  4",
-        Image: "",
+        Name: "Google pixel  4a",
+        Image: "https://quke.ru/UserFiles/Landing/products/75683_photos_0.jpeg",
         Category: "Pixel 4",
         Size: "144 x 69.4 x 8.2 мм",
         Weight: "143 г",
@@ -2040,8 +2040,8 @@ const phones = [
         Charging: "18W"
     },
     {
-        Name: "Google pixel  4a 5",
-        Image: "",
+        Name: "Google pixel  4a 5G",
+        Image: "https://smarfony.ru/wp-content/uploads/2020/10/google-pixel-4a-5g.jpg",
         Category: "Pixel 4",
         Size: "153.9 x 74 x 8.2 мм",
         Weight: "168 г",
@@ -2058,85 +2058,5 @@ const phones = [
         USB: "USB - Type-C 3.1",
         Acuum: "3885mAh",
         Charging: "18W"
-    },
-    {
-        Name: "IPhone 1",
-        Image: "",
-        Category: "12 Series",
-        Size: "146.7 x 71.5 x 7.4 мм",
-        Weight: "164 г",
-        Screen: "Super Retina XDR OLED, 1170 x 2532 пик. 460 ppi",
-        OS: "IOS 14.6",
-        Chip: "A14 Bionic",
-        GPU: "Apple GPU",
-        MainCam: "12 x 12 mp, 4K 60fps, 1080 60fps",
-        SelfieCam: "12mp, SL 3D, 4K 60fps 1080 60fps",
-        Memory: "64/4, 128/4, 256/4 NVMe",
-        Bluetooth: "Bluetooth 5.0",
-        NFC: "true",
-        Jack35: "false",
-        USB: "USB - Lightning 2.0",
-        Acuum: "2815mAh",
-        Charging: "20W"
-    },
-    {
-        Name: "IPhone 12 min",
-        Image: "",
-        Category: "12 Series",
-        Size: "131.5 x 64.2 x 7.4 мм",
-        Weight: "135 г",
-        Screen: "Super Retina XDR OLED, 1080 x 2340 пик. 476 ppi",
-        OS: "IOS 14.6",
-        Chip: "A14 Bionic",
-        GPU: "Apple GPU",
-        MainCam: "12 x 12 mp, 4K 60fps, 1080 60fps",
-        SelfieCam: "12mp, SL 3D, 4K 60fps 1080 60fps",
-        Memory: "64/4, 128/4, 256/4 NVMe",
-        Bluetooth: "Bluetooth 5.0",
-        NFC: "true",
-        Jack35: "false",
-        USB: "USB - Lightning 2.0",
-        Acuum: "2227mAh",
-        Charging: "20W"
-    },
-    {
-        Name: "IPhone 12 Pr",
-        Image: "",
-        Category: "12 Series",
-        Size: "146.7 x 71.5 x 7.4 мм",
-        Weight: "189 г",
-        Screen: "Super Retina XDR OLED, 1170 x 2532 пик. 460 ppi",
-        OS: "IOS 14.6",
-        Chip: "A14 Bionic",
-        GPU: "Apple GPU",
-        MainCam: "12 x 12 x 12 mp, 4K 60fps, 1080 60fps",
-        SelfieCam: "12mp, SL 3D, 4K 60fps 1080 60fps",
-        Memory: "128/6, 256/6, 512/6 NVMe",
-        Bluetooth: "Bluetooth 5.0",
-        NFC: "true",
-        Jack35: "false",
-        USB: "USB - Lightning 2.0",
-        Acuum: "2815mAh",
-        Charging: "20W"
-    },
-    {
-        Name: "IPhone 12 Pro Ma",
-        Image: "",
-        Category: "12 Series",
-        Size: "160.8 x 78.1 x 7.4 мм",
-        Weight: "228 г",
-        Screen: "Super Retina XDR OLED, 1284 x 2778 пик. 458 ppi",
-        OS: "IOS 14.6",
-        Chip: "A14 Bionic",
-        GPU: "Apple GPU",
-        MainCam: "12 x 12 x 12 mp, 4K 60fps, 1080 60fps",
-        SelfieCam: "12mp, SL 3D, 4K 60fps 1080 60fps",
-        Memory: "128/6, 256/6, 256/6 NVMe",
-        Bluetooth: "Bluetooth 5.0",
-        NFC: "true",
-        Jack35: "false",
-        USB: "USB - Lightning 2.0",
-        Acuum: "3687mAh",
-        Charging: "20W"
     }
 ]
