@@ -74,7 +74,7 @@ function fillCardsWithPhones() {
     phonesToAdd.forEach(phone => {
         var img = phone.Image;
         if (!phone.Image) {
-            img = "https://smarfony.ru/wp-content/uploads/2020/11/realme-7-5g.jpg";
+            img = "https://media.discordapp.net/attachments/722076428065308757/853224272598925332/smartphone-on-gradient-background-mobile-phone-with-abstract-colorful-screen_6343-510-removebg-previ.png";
         }
 
         var nfc = phone.NFC == "true" ? "есть" : "нет";
@@ -126,9 +126,36 @@ function getPhonesByRequest() {
     return res;
 }
 
+var asideCounter = 0;
+// Add phone to phone_list
 function addPhone(title, image, description) {
+    card = getPhoneNode(title, image, description);
+
+    card.onclick = function () {
+        let aside = document.querySelectorAll("#phones_aside")[0];
+
+        const counter_val  = asideCounter;
+        aside_card = getPhoneNode(title, image, description);
+        aside_card.className = "card_aside";
+        aside_card.id = `id_${counter_val}`;
+
+
+        aside_card.addEventListener('dblclick', function (e) {
+            var card = document.querySelectorAll(`#id_${counter_val}`)[0]
+            console.log(card);
+            card.style = "display: none;";
+        });
+
+        aside.appendChild(aside_card);
+        asideCounter += 1;
+    }
+
     var divList = document.querySelectorAll(".phone_list")[0];
 
+    divList.appendChild(card);
+}
+
+function getPhoneNode(title, image, description) {
     var h = document.createElement("h4");
     h.textContent = title;
 
@@ -140,7 +167,7 @@ function addPhone(title, image, description) {
         span.textContent = element.split(':')[0] + ":";
         par.textContent = element.split(':')[1];
 
-        var d  = document.createElement("div");
+        var d = document.createElement("div");
         d.style = "display: flex; flex-direction: row;"
         d.appendChild(span);
         d.appendChild(par);
@@ -168,9 +195,8 @@ function addPhone(title, image, description) {
 
     div_card.appendChild(div_card_container);
 
-    divList.appendChild(div_card);
+    return div_card;
 }
-
 
 // On sub click
 function fillOptionsBySub(sub_selected) {
