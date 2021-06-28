@@ -99,21 +99,6 @@ nav a>button:active {
     padding: 0 100px;
 }
 
-@media screen and (max-width: 700px) {
-    .sub_nav {
-        padding: 0;
-    }
-
-    .sub_nav button {
-        font-size: 10px;
-    }
-
-    nav a>button {
-        font-size: 14px;
-        padding: .5em .8em;
-    }
-}
-
 /* filter_menu - меню с фильтрацией */
 .filter_menu {
     display: flex;
@@ -137,17 +122,6 @@ nav a>button:active {
 
 .filter_menu button:active {
     transform: scale(1);
-}
-
-@media screen and (max-width: 700px) {
-    .filter_menu {
-        margin-top: 5px;
-    }
-
-    .filter_menu button {
-        font-size: 0.5em;
-        margin: 2px 4px;
-    }
 }
 
 /* Заголовок выбора */
@@ -180,6 +154,10 @@ nav a>button:active {
 
 .phone_list {
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
     flex-wrap: wrap;
     margin: 15px;
 }
@@ -192,8 +170,8 @@ nav a>button:active {
     align-items: center;
     transition: 0.5s;
     border-radius: 8px;
-    margin: 10px 25px;
-    width: 40ex;
+    width: 100%;
+    max-width: 40ex;
 }
 
 .card img {
@@ -243,7 +221,7 @@ nav a>button:active {
 }
 
 /* Карточка сбоку  */
-.card_aside{
+.card_aside {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -276,4 +254,42 @@ nav a>button:active {
     margin-right: 2px;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
+}
+
+@media screen and (max-width: 1200px) {
+    .card img {
+        max-height: 50vh;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .sub_nav {
+        padding: 0;
+    }
+
+    .sub_nav button {
+        font-size: 10px;
+    }
+
+    nav a>button {
+        font-size: 14px;
+        padding: .5em .8em;
+    }
+
+    .filter_menu {
+        margin-top: 5px;
+    }
+
+    .filter_menu button {
+        font-size: 0.5em;
+        margin: 2px 4px;
+    }
+
+    .card img {
+        max-height: 40vh;
+    }
+
+    #phones_aside {
+        display: none;
+    }
 }
