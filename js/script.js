@@ -179,8 +179,8 @@ function getPhoneNode(title, image, description) {
     div_card_container.className = "card_container";
 
     var img = document.createElement("img");
-    img.src = image;
     img.alt = "image";
+    img.id = image;
     img.style = "width:100%";
 
     var div_card = document.createElement("div");

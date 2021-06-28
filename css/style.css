@@ -168,10 +168,15 @@ nav a>button:active {
     display: flex;
     flex-direction: column;
     align-items: center;
+    opacity: 0;
     transition: 0.5s;
     border-radius: 8px;
     width: 100%;
     max-width: 40ex;
+}
+
+.cardVisible {
+    opacity: 1;
 }
 
 .card img {
